@@ -7,7 +7,7 @@
 *   Cygwin：完整的POSIX环境
 *   Windows Terminal：外观不错的终端管理
 *   Git Bash For Windows：随手git方便
-*   初始化git配置
+*   Tmux: 同一shell下多窗口管理
 
 ## Cygwin
 
@@ -22,6 +22,7 @@
 | -------- | -------- |
 | curl     | Net      |
 | dos2unix | Utils    |
+| tmux     | Utils    |
 | git      | Devel    |
 | unzip    | Archive  |
 | vim      | Editors  |
@@ -33,7 +34,7 @@
 2.  使用这个命令生成cygwin下的文件`$ mkpasswd -l > /etc/passwd`
 3.  编辑passwd文件，每行代表一个用户，单行用`:`分割，修改第三、第四个元素为0，代表最高权限
 4.  如 `<username>:*:0:0:XX-XX,XX-XX-XX:/home/<username>:/bin/bash`
-5.  保存后重启shell，看到`$$`变为`#`，说明生效
+5.  保存后重启shell，看到`$`变为`#`，说明生效
 
 ### Shell Prompt
 
